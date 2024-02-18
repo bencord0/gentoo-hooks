@@ -1,0 +1,97 @@
+register_success_hook success_hook
+function success_hook {
+	/usr/local/bin/gentoo-hooks --function success_hook
+}
+
+register_die_hook die_hook
+function die_hook {
+	/usr/local/bin/gentoo-hooks --function die_hook
+}
+
+function pre_pkg_setup {
+	/usr/local/bin/gentoo-hooks --function pre_pkg_setup
+}
+
+function post_pkg_setup {
+	/usr/local/bin/gentoo-hooks --function post_pkg_setup
+}
+
+function pre_src_unpack {
+	/usr/local/bin/gentoo-hooks --function pre_src_unpack
+}
+
+function post_src_unpack {
+	/usr/local/bin/gentoo-hooks --function post_src_unpack
+}
+
+function pre_src_prepare {
+	/usr/local/bin/gentoo-hooks --function pre_src_prepare
+}
+
+function post_src_prepare {
+	/usr/local/bin/gentoo-hooks --function post_src_prepare
+}
+
+function pre_src_configure {
+	/usr/local/bin/gentoo-hooks --function pre_src_configure
+}
+
+function post_src_configure {
+	/usr/local/bin/gentoo-hooks --function post_src_configure
+}
+
+function pre_src_compile {
+	/usr/local/bin/gentoo-hooks --function pre_src_compile
+}
+
+function post_src_compile {
+	/usr/local/bin/gentoo-hooks --function post_src_compile
+}
+
+function pre_src_test {
+	/usr/local/bin/gentoo-hooks --function pre_src_test
+}
+
+function post_src_test {
+	/usr/local/bin/gentoo-hooks --function post_src_test
+}
+
+function pre_src_install {
+	/usr/local/bin/gentoo-hooks --function pre_src_install
+}
+
+function post_src_install {
+	/usr/local/bin/gentoo-hooks --function post_src_install
+}
+
+function pre_pkg_preinst {
+	/usr/local/bin/gentoo-hooks --function pre_pkg_preinst
+}
+
+function post_pkg_preinst {
+	/usr/local/bin/gentoo-hooks --function post_pkg_preinst
+}
+
+function pre_pkg_postinst {
+	/usr/local/bin/gentoo-hooks --function pre_pkg_postinst
+}
+
+function post_pkg_postinst {
+	/usr/local/bin/gentoo-hooks --function post_pkg_postinst
+}
+
+function pre_pkg_prerm {
+	/usr/local/bin/gentoo-hooks --function pre_pkg_prerm
+}
+
+function post_pkg_prerm {
+	/usr/local/bin/gentoo-hooks --function post_pkg_prerm
+}
+
+function pre_pkg_postrm {
+	/usr/local/bin/gentoo-hooks --function pre_pkg_postrm
+}
+
+function post_pkg_postrm {
+	/usr/local/bin/gentoo-hooks --function post_pkg_postrm
+}
